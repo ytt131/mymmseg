@@ -41,7 +41,7 @@ from .transforms import (CLAHE, AdjustGamma, Albu, BioMedical3DPad,
                          SegRescale)
 from .voc import PascalVOCDataset
 from .stanfordbackground import StanfordBackgroundDataset
-
+from .cityscapes_small  import SmallCityscapesDataset
 # yapf: enable
 __all__ = [
     'BaseSegDataset', 'BioMedical3DRandomCrop', 'BioMedical3DRandomFlip',
